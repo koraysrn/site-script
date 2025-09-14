@@ -28,24 +28,17 @@ sudo apt update
 sudo apt install wget
 macOS (Homebrew ile):
 
-
-
 brew install wget
 Python Kütüphaneleri Kurulumu
 Sanal Ortam Oluşturma ve Etkinleştirme
 
 Sanal ortam aracının yüklü olduğundan emin olun:
 
-
 sudo apt install python3-venv
 Proje klasörünüzde sanal ortamı oluşturun:
 
-
-
 python3 -m venv venv
 Sanal ortamı etkinleştirin:
-
-
 
 source venv/bin/activate
 Modülleri Kurma
