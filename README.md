@@ -23,12 +23,12 @@ Betiğin çalışması için **`wget`** programının sisteminizde yüklü olmas
 ### `wget` Kurulumu
 
 **Windows (WSL ile):**
-```bash
+```
 sudo apt update
 sudo apt install wget
 macOS (Homebrew ile):
 
-Bash
+
 
 brew install wget
 Python Kütüphaneleri Kurulumu
@@ -36,23 +36,22 @@ Sanal Ortam Oluşturma ve Etkinleştirme
 
 Sanal ortam aracının yüklü olduğundan emin olun:
 
-Bash
 
 sudo apt install python3-venv
 Proje klasörünüzde sanal ortamı oluşturun:
 
-Bash
+
 
 python3 -m venv venv
 Sanal ortamı etkinleştirin:
 
-Bash
+
 
 source venv/bin/activate
 Modülleri Kurma
 
 Sanal ortam etkinleştirildikten sonra, aşağıdaki komutu çalıştırın:
 
-Bash
+
 
 pip install validators colorama tqdm pyfiglet
