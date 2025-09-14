@@ -45,6 +45,4 @@ Modülleri Kurma
 
 Sanal ortam etkinleştirildikten sonra, aşağıdaki komutu çalıştırın:
 
-
-
 pip install validators colorama tqdm pyfiglet
